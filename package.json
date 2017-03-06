@@ -1,0 +1,17 @@
+{
+  "name": "release-example",
+  "description": "Example of releasing a project",
+  "repository": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "release:bash": "sh bin/release.sh",
+    "release:node": "node bin/release.js",
+    "build": "echo 'do build things'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
